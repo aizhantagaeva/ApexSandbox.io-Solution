@@ -1,8 +1,10 @@
 public Integer diff(Integer a, Integer b) {
     if (a > b){
-        a - b;
+     Integer sum =  a - b;
+     return sum;
     } else {
-        b - a;
+     Integer sum2 = b - a;
+     return sum2;
     }
 }
 }
