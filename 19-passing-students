@@ -1,9 +1,9 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
-    if (passedExam = true && passedAssignments = true) {
+    if (passedExam == true && passedAssignments == true) {
         return true;
-    } if else (passedExam = true && passedProject = true) {
+    } else if (passedExam == true && passedProject == true) {
         return true;
-    } if else (passedAssignments = true && passedProject = true) {
+    } else if (passedAssignments == true && passedProject == true) {
         return true;
     } else {
         return false;
