@@ -1,3 +1,4 @@
 public Boolean isEndWithZero(Integer num){
-     Integer remainder = Math.mod(num)
+     Integer remainder = Math.mod(num,10);
+     return (remainder == 0);
 }
