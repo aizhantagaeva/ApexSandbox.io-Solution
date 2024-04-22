@@ -6,6 +6,6 @@ public String ageGroup(Integer n) {
     } else if (n >= 15 && n <= 21) {
         return 'Youth';
     } else {
-        return 'Adults';
+        return 'Adult';
 }
 }
