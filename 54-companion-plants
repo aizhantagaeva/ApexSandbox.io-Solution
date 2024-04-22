@@ -1,0 +1,7 @@
+public Boolean companionPlants(String plant1, String plant2) {
+   if ((plant1 == 'lettuce' && plant2 == 'cucumber') ||
+      (plant1 == 'lettuce' && plant2 == 'onion') ||
+      (plant1 == 'onion' && plant2 == 'carrot') ||
+      (plant1 == 'onion' && plant2 == 'tomatoes'))
+    return true;
+}
